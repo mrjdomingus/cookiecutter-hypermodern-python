@@ -1,0 +1,5 @@
+default:
+  filemode: a
+  format: "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+  logfile: ${PACKAGE_HOME}/logs/{{cookiecutter.package_name}}.log
+  logging_level: 20
