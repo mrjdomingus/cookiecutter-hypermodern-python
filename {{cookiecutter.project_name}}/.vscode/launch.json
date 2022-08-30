@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: {{cookiecutter.package_name}} test-command",
+            "type": "python",
+            "env": {
+                "PACKAGE_HOME": "${workspaceFolder}/src",
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "cwd": "${workspaceFolder}/src",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/{{cookiecutter.package_name}}/__main__.py",
+            "args": [
+                "test-command"
+            ],
+            "justMyCode": false,
+            "console": "integratedTerminal"
+        },
+    ]
+}

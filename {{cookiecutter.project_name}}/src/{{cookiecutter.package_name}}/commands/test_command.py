@@ -1,14 +1,14 @@
 import logging
 import click
 
-from ..utils.core import Container, get_function_name
+from {{cookiecutter.package_name}}.utils.core import Container, get_function_name
 
 TEST_COMMAND_KEY = "test_command"
 
 @click.command()
 @click.pass_context
 def test_command(ctx: click.Context) -> None:
-    """Click command to test command.
+    """Click command to test package.
     \f
 
     Args:

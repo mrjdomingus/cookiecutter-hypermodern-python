@@ -2,13 +2,13 @@
 import click
 import os
 
-from .commands.test_command import (
+from {{cookiecutter.package_name}}.commands.test_command import (
     test_command,
 )
-from .utils.core import find_config_file
+from {{cookiecutter.package_name}}.utils.core import find_config_file
 
 DEFAULT_CONFIG = "{{cookiecutter.package_name}}.yaml"
-PACKAGE_HOME = "{{cookiecutter.package_name}}".upper() + "_HOME"
+PACKAGE_HOME = "PACKAGE_HOME"
 
 __VERSION__ = "1.0"
 

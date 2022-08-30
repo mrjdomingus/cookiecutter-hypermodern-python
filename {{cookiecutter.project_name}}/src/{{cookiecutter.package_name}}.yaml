@@ -3,3 +3,5 @@ default:
   format: "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
   logfile: ${PACKAGE_HOME}/logs/{{cookiecutter.package_name}}.log
   logging_level: 20
+test_command:
+  logfile: ${PACKAGE_HOME}/logs/test_command.log
