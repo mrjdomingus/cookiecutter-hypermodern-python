@@ -48,7 +48,7 @@
 ## Usage
 
 ```console
-$ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 ```
 
 ## Features
@@ -86,7 +86,7 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [click]: https://click.palletsprojects.com/
 [codecov]: https://codecov.io/
 [coverage.py]: https://coverage.readthedocs.io/
-[dependabot]: https://dependabot.com/
+[dependabot]: https://github.com/dependabot/dependabot-core
 [flake8]: http://flake8.pycqa.org
 [furo]: https://pradyunsg.me/furo/
 [github actions]: https://github.com/features/actions
